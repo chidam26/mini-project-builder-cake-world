@@ -4,10 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Mini-Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
+<header class="header">
+<div class="header-container">
+<div class="top-layer">
+<img src="assets/cake.png" class="cakelogo" alt="cake">
+<h1 id="name">Cake World</h1>
+</div>
+</div>
+</header>
+<section class="body">
+<div class="menu">
+    <img src="assets/list_template.png" class="board1">
+    <div class="menu-container">
+      <h3><b>PRICES</b></h3>
+      <p>Chocolate ---------300</p>
+      <p>Strawberry -------100</p>
+      <p>Butterscotch -------200</p>
+      <p>Vanilla -------250</p>
+      <p>Redvelvet ------350</p>
+    </div>
+</div>
+<div class="cake">
+    <img src="./assets/candle.png" alt="candle" id="candle" />
+    <div id="layer5"></div>
+    <div id="layer4"></div>
+    <div id="layer3"></div>
+    <div id="layer2"></div>
+    <div id="layer1"></div>
+  </div>
+<div class="bill">
+    <img src="assets/list_template.png" class="board2">
+    <div class="bill-container">
+        <h3><b>BILL</b></h3>
+        <p class="items" id="item-1">Chocolate ........300</p>
+          <p class="items" id="item-2">Strawberry.. 100</p>
+          <p class="items" id="item-3">Butterscotch..200</p>
+          <p class="items" id="item-4">Vanilla ...................... 250</p>
+          <p class="items" id="item-5">Redvelvet ........ 350</p>
+          <p class="items" id="total"></p>
+
+    </div>
+</div>
+</section>
     
+<footer>
+    <div class="button-container">
+        <div class="button btn-choc active">Chocolate</div>
+        <div class="button btn-strawberry active">Strawberry</div>
+        <div class="button btn-butterscotch active">Butterscotch</div>
+        <div class="button btn-vanilla active">Vanilla</div>
+        <div class="button btn-redvelvet active">Red-velvet</div>
+        <div class="buy">Buy</div>
+    </div>
+</footer>
 </body>
 <script src="/script.js"></script>
 </html>

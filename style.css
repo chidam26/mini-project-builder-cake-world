@@ -1,11 +1,236 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 *{
     margin:0;
     padding:0;
 }
+.header-container {
+    background-color: maroon;
+    width: auto;
+    height: 100px;
+}
+
+.top-layer {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 250px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    object-fit: contain;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.08);
+}
+
+.cakelogo {
+    position: relative;
+    left: 50%;
+    object-fit: contain;
+    transform: translate(-50%, 0%);
+    width: 140px;
+    height: 140px;
+}
+#name {
+    object-fit: contain;
+    color: white;
+    padding-left: 55px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Lobster', cursive;
+
+    
+}
+
+body {
+    background-color: rgb(135, 80, 223);
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px ;
+    
+}
+
+footer {
+    background-color: maroon;
+    height: 60px;
+}
+
+.menu-container, .bill {
+    font-family: 'Architects Daughter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: larger;
+    padding: 20px;
+
+}
+
+.btn-choc {
+    border-radius: 5px;
+    background-color: rgb(41, 15, 15);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    padding: 3px;
+    cursor: pointer;
+}
+.btn-strawberry {
+    border-radius: 5px;
+    background-color: rgb(211, 56, 198);;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    font-size: larger;
+    cursor: pointer;
+}
+.btn-butterscotch {
+    border-radius: 5px;
+    background-color: rgb(193, 212, 23);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    padding: 3px;
+    cursor: pointer;
+}
+.btn-vanilla {
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    color:black;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    padding: 3px;
+    cursor: pointer;
+}
+.btn-redvelvet {
+    border-radius: 5px;
+    background-color: rgb(245, 37, 10);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.buy {
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.board1 {
+    position: absolute;
+}
+
+.menu-container {
+    position: relative;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+.board2 {
+    object-fit: contain;
+    
+}
+
+.bill-container {
+    position: absolute;
+    top: 42%;
+    right:6%;
+    transform: translate(-50%,-50%);
+}
+
+.cake {
+    position: absolute;
+    bottom: 40%;
+    width: 245px;
+    left: 42%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+#layer1 {
+    width: 245px;
+    height: 50px;
+    visibility: hidden;
+    background-color: brown;
+    color: brown;
+    border-radius: 25%;
+    align-self: center;
+  }
+#layer2 {
+    width: 200px;
+    left: 40px;
+    height: 50px;
+    visibility: hidden;
+    background-color: pink;
+    border-radius: 25%;
+    color: pink;
+    align-self: center;
+  }
+#layer3 {
+    width: 160px;
+    left: 60px;
+    height: 50px;
+    visibility: hidden;
+    background-color: rgb(250, 240, 98);
+    border-radius: 25%;
+    color: rgb(250, 240, 98);
+    align-self: center;
+  }
+#layer4 {
+    width: 120px;
+    left: 80px;
+    height: 50px;
+    visibility: hidden;
+    background-color: whitesmoke;
+    border-radius: 25%;
+    color: whitesmoke;
+    align-self: center;
+  }
+  #layer5 {
+    width: 80px;
+    left: 100px;
+    height: 50px;
+    visibility: hidden;
+    background-color: red;
+    border-radius: 25%;
+    color: red;
+    align-self: center;
+  }
+  #candle {
+    width: 50px;
+    left: 120px;
+    visibility: hidden;
+    align-self: center;
+  }
+
 
 /* Fill your code*/
 
